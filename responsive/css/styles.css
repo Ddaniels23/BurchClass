@@ -89,6 +89,17 @@ footer {
     text-align: center;
 }
 
+iframe {
+    display: block;
+    margin: 20px auto;
+    width: 65%;
+    height: 450px;
+}
+
+.contact_content {
+    text-align: center;
+}
+
 /*Tablet Styles*/
 
 @media (min-width: 768px) {
@@ -131,13 +142,33 @@ footer {
         display: flex;
 }
     .col {
-        border: 2px solid black;
+        border: 2px solid ghostwhite;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        width: 33.33%;
+    }
+    .col img{
+        width: 100%;
+
+    }
+
+    .multi_col {
+        display: flex;
+    }
+
+    section, aside {
+        border: 2px solid ghostwhite;
         margin: 10px;
         padding: 10px;
         border-radius: 10px;
     }
-    .col img{
-        width: 100%;
-        
+
+    section {
+        width: 70%;
+    }
+
+    aside {
+        width: 30%;
     }
 }
