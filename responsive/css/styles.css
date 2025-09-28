@@ -164,11 +164,11 @@ iframe {
         border-radius: 10px;
     }
 
-    section {
+    .home_section {
         width: 70%;
     }
 
-    aside {
+    .home_aside {
         width: 30%;
     }
 }
